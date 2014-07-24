@@ -14,9 +14,6 @@
 
 PRODUCT_COPY_FILES += \
     vendor/lge/u2/proprietary/etc/cert/lge.cer:system/etc/cert/lge.cer \
-    vendor/lge/u2/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
-    vendor/lge/u2/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
-    vendor/lge/u2/proprietary/etc/firmware/fw_bcmdhd_p2p.bin:system/etc/firmware/fw_bcmdhd_p2p.bin \
     vendor/lge/u2/proprietary/etc/firmware/BCM4330B1_002.001.003.0750.0865.hcd:system/etc/firmware/BCM4330B1_002.001.003.0750.0865.hcd \
     vendor/lge/u2/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/u2/proprietary/lib/hw/gps.omap4.so:system/lib/hw/gps.omap4.so \
@@ -47,4 +44,5 @@ PRODUCT_COPY_FILES += \
     vendor/lge/u2/proprietary/vendor/bin/pvrsrvinit:system/vendor/bin/pvrsrvinit \
     vendor/lge/u2/proprietary/bin/sensord:system/bin/sensord \
     vendor/lge/u2/proprietary/bin/glgps:system/bin/glgps \
-    vendor/lge/u2/proprietary/bin/rild:system/bin/rild
+    vendor/lge/u2/proprietary/bin/rild:system/bin/rild \
+	vendor/lge/u2/proprietary/bin/BCM4330B1_002.001.003.0750.0865.hcd:system/bin/BCM4330B1_002.001.003.0750.0865.hcd
